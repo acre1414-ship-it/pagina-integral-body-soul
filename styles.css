@@ -807,7 +807,7 @@ section h2::after {
 
 /* ── FOOTER ──────────────────────────────── */
 .footer {
-    background: var(--dark);
+    background: #0d2535;
     color: rgba(255,255,255,0.8);
     padding: 2rem 1.5rem;
 }
