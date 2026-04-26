@@ -625,7 +625,7 @@ section h2::after {
 
 /* ── CIERRE DE VENTA ─────────────────────── */
 .cierre {
-    background: linear-gradient(135deg, #1a2e38 0%, #2a5060 50%, var(--primary-dk) 100%);
+    background: linear-gradient(135deg, #0d7aab 0%, #1a9ed4 50%, var(--primary) 100%);
     padding: 6rem 2rem;
     text-align: center;
 }
