@@ -35,3 +35,4 @@ Thumbs.db
 
 # Claude Code (configuracion interna - no subir)
 .claude/
+.github/
