@@ -1,0 +1,26 @@
+{
+  "name": "pagina-integral-body-soul",
+  "version": "1.0.0",
+  "description": "Sitio web profesional para la estética Integral Body & Soul - Tratamientos reductores, faciales terapéuticos y bienestar holístico",
+  "author": "Maryan",
+  "license": "MIT",
+  "keywords": [
+    "estética",
+    "tratamientos",
+    "reducción",
+    "faciales",
+    "bienestar",
+    "holístico"
+  ],
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "echo 'Desarrollo local - Abre index.html en tu navegador'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/pagina-integral-body-soul.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

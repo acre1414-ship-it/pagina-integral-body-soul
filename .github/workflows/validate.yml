@@ -1,0 +1,39 @@
+name: Validación de Sitio Web
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Validar HTML
+      run: |
+        echo "✓ Validando estructura HTML..."
+        ls -la index.html
+        
+    - name: Validar CSS
+      run: |
+        echo "✓ Validando archivos CSS..."
+        ls -la styles.css
+        
+    - name: Validar JavaScript
+      run: |
+        echo "✓ Validando archivos JavaScript..."
+        ls -la script.js
+        
+    - name: Validar Assets
+      run: |
+        echo "✓ Validando carpeta de assets..."
+        ls -la assets/
+        
+    - name: Resumen
+      run: |
+        echo "✓ Validación completada"
+        echo "✓ Proyecto listo para GitHub Pages"

@@ -1,0 +1,34 @@
+# Dependencias de Node (si usas npm)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Archivos de build (si aplica)
+dist/
+build/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs del sistema
+*.log
+logs/
+
+# Archivos temporales
+temp/
+tmp/
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
