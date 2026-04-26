@@ -32,3 +32,6 @@ tmp/
 # Archivos del sistema
 Thumbs.db
 .DS_Store
+
+# Claude Code (configuracion interna - no subir)
+.claude/
