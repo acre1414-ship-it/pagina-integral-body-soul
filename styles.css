@@ -207,7 +207,7 @@ section h2::after {
     align-items: center;
     gap: 3rem;
     padding: 5.5rem 2rem 5rem;
-    background: linear-gradient(135deg, var(--primary-lt) 0%, var(--white) 60%);
+    background: linear-gradient(135deg, #e8f6fc 0%, #f0fbff 40%, var(--white) 100%);
     min-height: 680px;
 }
 
