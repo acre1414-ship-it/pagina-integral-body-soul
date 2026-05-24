@@ -716,6 +716,51 @@ section h2::after {
     text-decoration: underline;
 }
 
+.map-buttons {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.map-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.map-btn-google {
+    background: #e8f6fc;
+    color: #1a7ab5;
+    border: 1px solid rgba(74, 184, 232, 0.35);
+}
+
+.map-btn-google:hover {
+    background: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+    transform: translateY(-1px);
+}
+
+.map-btn-waze {
+    background: #fff8e1;
+    color: #c8860a;
+    border: 1px solid rgba(200, 134, 10, 0.3);
+}
+
+.map-btn-waze:hover {
+    background: #33ccff;
+    color: var(--white);
+    border-color: #33ccff;
+    transform: translateY(-1px);
+}
+
 .contacto-form {
     display: flex;
     flex-direction: column;
